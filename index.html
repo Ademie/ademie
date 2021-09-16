@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="navbar" id="navbar">
+      <div class="leftside">
+        <div class="logo">
+          <a href="#" style="display: flex; align-items: center">
+            <img src="img/code.svg" style="width: 40px" />
+            &nbsp;PERSONAL
+          </a>
+        </div>
+      </div>
+      <div class="rightside">
+        <div class="links" id="links">
+          <a href="#home" class="active">HOME</a>
+          <a href="#about">ABOUT</a>
+          <a href="#services">SERVICES</a>
+          <a href="#resume">RESUME</a>
+          <a href="#work">WORK</a>
+          <a href="#contact">CONTACT</a>
+        </div>
+        <a
+          href="javascript:void(0);"
+          style="font-size: 20px"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+      </div>
+    </div>
+    <!-- SHOWCASE -->
+    <div class="showcase" id="home">
+      <div class="overlay"></div>
+      <div class="showcontent">
+        <h2 class="hi">Hi I Am</h2>
+        <h1 class="name">ADEMIE</h1>
+        <h2 class="title">A Front-end Web Developer</h2>
+        <div class="favicons">
+          <a href="https://wa.me/2348102748644">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+
+          <a href="https://github.com/Ademie">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/ademie"
+            ><i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+        <a
+          class="btn blue"
+          href="./img/Ademie'sResume.pdf"
+          style="padding: 5px 20px"
+          download
+          >DOWNLOAD RESUME</a
+        >
+      </div>
+    </div>
+    <!-- ABOUT -->
+    <div class="about" id="about">
+      <div class="img_about">
+        <img src="img/about/pass.jpg" width="100%" />
+      </div>
+      <!-- profile -->
+      <div class="prof_about">
+        <h1>Hello</h1>
+        <p>
+          I am a motivated junior front end developer from the Federal
+          University of Technology Akure; seeking to use proven skills in HTML,
+          CSS, Javascript, Wordpress and React JS to meet organizational needs.
+        </p>
+        <br />
+        <ul>
+          <li>
+            <span class="bold">Name</span
+            ><span class="text"
+              >Isijola Adesanoye <span class="brandname">(Ademie)</span>
+            </span>
+          </li>
+          <li>
+            <span class="bold">Education</span
+            ><span class="text">B.Tech (in view)</span>
+          </li>
+          <li>
+            <span class="bold">Country</span><span class="text">Nigeria</span>
+          </li>
+          <li>
+            <span class="bold">Location</span
+            ><span class="text">Akure, Ondo State</span>
+          </li>
+          <li>
+            <span class="bold">Email</span
+            ><span class="text">adeisijola7@gmail.com</span>
+          </li>
+          <li>
+            <span class="bold">Phone</span
+            ><span class="text">+ (234) 810 274 8644</span>
+          </li>
+          <li>
+            <span class="bold">Internship</span
+            ><span class="text">Avalaible</span>
+          </li>
+          <li>
+            <span class="bold">Freelance</span
+            ><span class="text">Avalaible</span>
+          </li>
+        </ul>
+        <div class="about-btns">
+          <a class="btn blue" href="./img/Ademie'sResume.pdf" download
+            ><i class="fa fa-paperclip" aria-hidden="true"></i> &nbsp;DOWNLOAD
+            RESUME</a
+          >
+          <a class="btn red" href="https://wa.me/2348102748644"
+            ><i class="fa fa-phone" aria-hidden="true"></i> &nbsp;CONTACT ME</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- SERVICES -->
+    <div class="services" id="services">
+      <h1>My Services</h1>
+      <div class="row_services">
+        <div class="col_services">
+          <i class="fa fa-bookmark" aria-hidden="true"></i>
+          <h3>TEMPLATES DESIGN</h3>
+          <p>
+            Design of static and dynamic web templates using html, css and
+            javascript.
+          </p>
+        </div>
+        <div class="col_services">
+          <i class="fab fa-wordpress"></i>
+          <h3>WORDPRESS DESIGN</h3>
+          <p>
+            Design of websites using wordpress and elementor plugin, with css
+            customization.
+          </p>
+        </div>
+        <div class="col_services">
+          <i class="fab fa-react"></i>
+          <h3>REACT FRONT END</h3>
+          <p>
+            Design react pages, fetch json data, connect to API's, validations,
+            routing and smooth scrolling.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- RESUME -->
+    <div class="resume" id="resume">
+      <!-- Education -->
+      <div class="vl">
+        <div class="content">
+          <i class="fas fa-crosshairs"></i>
+          <!-- <i class="fa fa-graduation-cap" id="cap"></i> -->
+          <h3 class="heading">OBJECTIVE</h3>
+          <div class="col_edu">
+            <div class="circle"></div>
+            <h3 class="title">CAREER OBJECTIVE</h3>
+            <p class="text">
+              Beginning my journey as a front end web developer, I intend to
+              emphasize the importance of scalable and well documented code.<br />
+              Additionally, adding values through simple yet creative designs.
+              Furthermore, I look forward to working collaboratively in any
+              organization I find myself, however, I can also run with projects
+              on my own.
+            </p>
+            <img src="/img//gallery/signature.png" class="obj-img" />
+          </div>
+          <!-- <div class="col_edu">
+            <div class="circle"></div>
+            <h3 class="title">JAVASCRIPT/REACT</h3>
+            <p class="date">2021 - Present</p>
+            <p class="text">
+              Able to write React applications and keeping things simple without
+              confusing UI libraries. However, I have basic knowledge of
+              material UI and styled components.
+            </p>
+          </div> -->
+          <!-- <div class="col_edu">
+            <div class="circle"></div>
+            <h3 class="title">WORDPRESS</h3>
+            <p class="date">Nov 2020 - Present</p>
+            <p class="text">
+              Able to design wordpress pages using Elementor plugin for
+              organizations, businesses and personnels. I can also design a
+              wordpress woocommerce store
+            </p>
+          </div> -->
+        </div>
+      </div>
+      <!-- Tools -->
+      <div class="vl">
+        <div class="content">
+          <i class="fas fa-laptop-code"></i>
+          <!-- <i class="fa fa-briefcase" id="briefcase"></i> -->
+          <h3 class="heading">STACK</h3>
+          <div class="col_exp">
+            <div class="circle"></div>
+            <h3 class="title">HTML/CSS</h3>
+            <p class="date">2020 - Present</p>
+            <p class="text">
+              Able to transform UI designs to html and css codes. I can also
+              rewrite basic/intermediate bootstrap and SAAS pages without using
+              frameworks or libraries.
+            </p>
+          </div>
+
+          <div class="col_exp">
+            <div class="circle"></div>
+            <h3 class="title">JAVASCRIPT/REACT</h3>
+            <p class="date">2021 - Present</p>
+            <p class="text">
+              Able to write React applications and keeping things simple without
+              confusing UI libraries. However, I have basic knowledge of
+              material UI and styled components.
+            </p>
+          </div>
+          <div class="col_exp">
+            <div class="circle"></div>
+            <h3 class="title">WORDPRESS</h3>
+            <p class="date">2020 - Present</p>
+            <p class="text">
+              Able to design wordpress pages using Elementor plugin for
+              organizations, businesses and personnels. I can also design a
+              wordpress woocommerce store
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- WORKS -->
+    <div class="works" id="work">
+      <h1>My Portfolio</h1>
+      <div class="btns" id="myBtns">
+        <button class="btn active" onclick="selectFilter('all')">ALL</button>
+        <button class="btn blue" onclick="selectFilter('templates')">
+          TEMPLATES
+        </button>
+        <button class="btn blue" onclick="selectFilter('wordpress')">
+          WORDPRESS
+        </button>
+        <button class="btn blue" onclick="selectFilter('react')">REACT</button>
+      </div>
+      <!-- gallery -->
+      <div class="row">
+        <!-- design -->
+        <div class="col templates">
+          <div class="content">
+            <div class="overlay"></div>
+            <img src="img/gallery/beestore.jpg" style="width: 100%" />
+            <div class="favicons">
+              <a href="https://bee-store.000webhostapp.com">
+                <i class="fa fa-eye" aria-hidden="true"></i
+              ></a>
+              <a href="https://bee-store.000webhostapp.com">
+                <i class="fa fa-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col templates">
+          <div class="content">
+            <div class="overlay"></div>
+            <img src="img/gallery/event.png" width="100%" />
+            <div class="favicons">
+              <a href="https://event-land.000webhostapp.com/">
+                <i class="fa fa-eye" aria-hidden="true"></i
+              ></a>
+              <a href="https://event-land.000webhostapp.com/">
+                <i class="fa fa-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col wordpress">
+          <div class="content">
+            <div class="overlay"></div>
+            <img src="img/gallery/onestop.png" width="100%" />
+            <div class="favicons">
+              <a href="http://onestop.rf.gd/">
+                <i class="fa fa-eye" aria-hidden="true"></i
+              ></a>
+              <a href="http://onestop.rf.gd/">
+                <i class="fa fa-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col wordpress">
+          <div class="content">
+            <div class="overlay"></div>
+            <img src="img/gallery/ark.png" width="100%" />
+            <div class="favicons">
+              <a href="http://ademie.epizy.com/">
+                <i class="fa fa-eye" aria-hidden="true"></i
+              ></a>
+              <a href="http://ademie.epizy.com/">
+                <i class="fa fa-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col react">
+          <div class="content">
+            <div class="overlay"></div>
+            <img src="img/gallery/beehost.jpg" width="100%" />
+            <div class="favicons">
+              <a href="https://beehost.netlify.app/">
+                <i class="fa fa-eye" aria-hidden="true"></i
+              ></a>
+              <a href="https://beehost.netlify.app/">
+                <i class="fa fa-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col react">
+          <div class="content">
+            <div class="overlay"></div>
+            <img
+              src="img/gallery/chat.png"
+              width="100%"
+              style="border: 1px solid pink"
+            />
+            <div class="favicons">
+              <a href="https://ademieschat.netlify.app/">
+                <i class="fa fa-eye" aria-hidden="true"></i
+              ></a>
+              <a href="https://ademieschat.netlify.app/">
+                <i class="fa fa-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section counter -->
+      <div class="section">
+        <div class="overlay"></div>
+        <div class="column">
+          <i class="fas fa-user-circle"></i>
+          <p>SELF PACED</p>
+        </div>
+        <div class="column">
+          <i class="fas fa-user-friends"></i>
+          <p>TEAM WORK</p>
+        </div>
+        <div class="column">
+          <i class="fas fa-user-clock"></i>
+          <p>ON SCHEDULE</p>
+        </div>
+        <div class="column">
+          <i class="fab fa-superpowers"></i>
+          <p>PRODUCTIVE</p>
+        </div>
+      </div>
+    </div>
+    <!-- CONTACT -->
+    <div class="contact" id="contact">
+      <div class="row_contact">
+        <div class="form">
+          <h3 class="head">CONTACT FORM</h3>
+          <form
+            action="https://formkeep.com/f/318366aecb78"
+            accept-charset="UTF-8"
+            enctype="multipart/form-data"
+            method="POST"
+            onsubmit = "return validate();"
+          >
+            <div class="one">
+              <input id="name" name="name" type="text" placeholder="Name" required/>
+              <input id="email" name="email" type="email" placeholder="Email" required/>
+            </div>
+            <div class="two">
+              <input id="subj" type="text" placeholder="Subject" required/>
+            </div>
+            <div class="three">
+              <textarea
+                id="subject"
+                name="subject"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn blue">SEND MESSAGE</button>
+          </form>
+        </div>
+
+        <div class="address">
+          <h3 class="head">CONTACT ADDRESS</h3>
+          <div class="container favs">
+            <i class="fa fa-location-arrow" aria-hidden="true"></i>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+          </div>
+          <div class="container contact">
+            <p>Akure, Nigeria</p>
+            <div class="email">
+              <p>ademiedave@gmail.com</p>
+              <p>adeisijola7@gmail.com</p>
+            </div>
+            <p>+ (234) 810 274 8644</p>
+            <p>+ (234) 810 274 8644</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="footer">
+      <div class="social">
+        <a href="https://wa.me/2348102748644">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+
+        <a href="https://github.com/Ademie">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ademie"
+          ><i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+      <p>Ademie</p>
+      <div class="top">
+        <a href="#home">&#8593;</a>
+      </div>
+    </div>
+
+    <!-- scripts -->
+    <script src="js/script.js"></script>
+    <script src="js/validate.js"></script>    
+    <!-- NAVBAR SCRIPT -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("links");
+        if (x.className === "links") {
+          x.className += " responsive";
+        } else {
+          x.className = "links";
+        }
+      }
+    </script>
+  </body>
+</html>
