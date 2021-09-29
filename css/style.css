@@ -39,7 +39,7 @@ a {
   left: 0;
   bottom: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.728);
+  background: rgba(0, 0, 0, 0.7);
 }
 .showcase,
 .content {
@@ -148,7 +148,6 @@ a {
   font-size: 85px;
   letter-spacing: 1px;
   font-family: "Oswald", sans-serif;
-
   z-index: 2;
   position: relative;
 }
@@ -170,33 +169,16 @@ a {
 .fab:hover {
   transform: scale(1.1);
 }
-.fab:hover {
-  color: white !important;
-}
-.fa-whatsapp {
-  background: #25d366 !important;
-  color: white !important;
-}
-.fa-whatsapp:hover {
-  background: #16803d;
-}
-.fa-github {
-  background: #333333 !important;
-  color: white !important;
-}
-.fa-github:hover {
-  background: #333333;
-}
-.fa-linkedin {
-  background: rgb(20, 107, 194) !important;
-  color: white !important;
-}
-.fa-linkedin:hover {
-  background: rgb(20, 107, 194);
-}
+.fa-whatsapp {background: #5fe490 !important;color: black !important;}
+.fa-whatsapp:hover {background: #16803d;}
+.fa-github {background: #fffefe !important;color: black !important;}
+.fa-github:hover {background: #333333;}
+.fa-linkedin {background: rgb(21, 133, 245) !important;color: black !important;}
+.fa-linkedin:hover {background: rgb(20, 107, 194);}
 
 .blue {
   background: rgb(97, 56, 184);
+  border: 1px solid white;
 }
 .blue:hover {
   background: rgb(97, 56, 184);
@@ -749,6 +731,9 @@ a {
 }
 /* RESPONSIVENESS */
 @media screen and (max-width: 900px) {
+  .showcase .fab{
+    font-size: 18px;
+  }
   .links a.active,
   .links a:hover {
     transform: unset !important;
