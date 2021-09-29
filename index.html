@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- FONT AWSOME -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
       rel="stylesheet"
@@ -13,13 +14,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap"
-      rel="stylesheet"
-    />
-
+   
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- MONTSERRAT -->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
       rel="stylesheet"
@@ -39,12 +38,12 @@
       </div>
       <div class="rightside">
         <div class="links" id="links">
-          <a href="#home" class="active">HOME</a>
-          <a href="#about">ABOUT</a>
-          <a href="#services">SERVICES</a>
-          <a href="#resume">RESUME</a>
-          <a href="#work">WORK</a>
-          <a href="#contact">CONTACT</a>
+          <a href="#home"  onclick="myFunction()" class="active">HOME</a>
+          <a href="#about"  onclick="myFunction()" >ABOUT</a>
+          <a href="#services"  onclick="myFunction()">SERVICES</a>
+          <a href="#resume"  onclick="myFunction()">RESUME</a>
+          <a href="#work"  onclick="myFunction()">WORK</a>
+          <a href="#contact"  onclick="myFunction()">CONTACT</a>
         </div>
         <a
           href="javascript:void(0);"
@@ -57,11 +56,17 @@
     </div>
     <!-- SHOWCASE -->
     <div class="showcase" id="home">
+      <div class="backvid">
+        <video id="videoBG" poster="poster.JPG" autoplay muted loop>
+          <source src="/img/backvid2.mp4" type="video/mp4" />
+        </video>
+      </div>
+
       <div class="overlay"></div>
       <div class="showcontent">
         <h2 class="hi">Hi I Am</h2>
         <h1 class="name">ADEMIE</h1>
-        <h2 class="title">A Front-end Web Developer</h2>
+        <h2 class="title">A Front-End Developer</h2>
         <div class="favicons">
           <a href="https://wa.me/2348102748644">
             <i class="fab fa-whatsapp"></i>
@@ -76,7 +81,7 @@
         </div>
         <a
           class="btn blue"
-          href="./img/Ademie'sResume.pdf"
+          href="./img/Isijola_Adesanoye.pdf"
           style="padding: 5px 20px"
           download
           >DOWNLOAD RESUME</a
@@ -92,9 +97,8 @@
       <div class="prof_about">
         <h1>Hello</h1>
         <p>
-          I am a motivated junior front end developer from the Federal
-          University of Technology Akure; seeking to use proven skills in HTML,
-          CSS, Javascript, Wordpress and React JS to meet organizational needs.
+          I am a motivated Front End developer seeking to use proven skills in
+          HTML, CSS, Javascript, Wordpress, Sass and React JS to obtain a responsible and challenging Front End Developer's position, where my education and technical know-how will have valuable application.
         </p>
         <br />
         <ul>
@@ -105,8 +109,7 @@
             </span>
           </li>
           <li>
-            <span class="bold">Education</span
-            ><span class="text">B.Tech (in view)</span>
+            <!-- <span class="bold">Education</span><span class="text">B.Tech </span> -->
           </li>
           <li>
             <span class="bold">Country</span><span class="text">Nigeria</span>
@@ -125,7 +128,7 @@
           </li>
           <li>
             <span class="bold">Internship</span
-            ><span class="text">Avalaible</span>
+            ><span class="text">Available</span>
           </li>
           <li>
             <span class="bold">Freelance</span
@@ -133,7 +136,7 @@
           </li>
         </ul>
         <div class="about-btns">
-          <a class="btn blue" href="./img/Ademie'sResume.pdf" download
+          <a class="btn blue" href="./img/Isijola_Adesanoye.pdf" download
             ><i class="fa fa-paperclip" aria-hidden="true"></i> &nbsp;DOWNLOAD
             RESUME</a
           >
@@ -159,16 +162,14 @@
           <i class="fab fa-wordpress"></i>
           <h3>WORDPRESS DESIGN</h3>
           <p>
-            Design of websites using wordpress and elementor plugin, with css
-            customization.
+            Design of wordpress and wooCommerce websites.
           </p>
         </div>
         <div class="col_services">
           <i class="fab fa-react"></i>
-          <h3>REACT FRONT END</h3>
+          <h3>REACT & SASS</h3>
           <p>
-            Design react pages, fetch json data, connect to API's, validations,
-            routing and smooth scrolling.
+            Design React Pages, styling with Sass, fetch JSON Data and communicate with APIs.
           </p>
         </div>
       </div>
@@ -185,7 +186,7 @@
             <div class="circle"></div>
             <h3 class="title">CAREER OBJECTIVE</h3>
             <p class="text">
-              Beginning my journey as a front end web developer, I intend to
+              Beginning my journey as a Front End web developer, I intend to
               emphasize the importance of scalable and well documented code.<br />
               Additionally, adding values through simple yet creative designs.
               Furthermore, I look forward to working collaboratively in any
@@ -194,26 +195,6 @@
             </p>
             <img src="/img//gallery/signature.png" class="obj-img" />
           </div>
-          <!-- <div class="col_edu">
-            <div class="circle"></div>
-            <h3 class="title">JAVASCRIPT/REACT</h3>
-            <p class="date">2021 - Present</p>
-            <p class="text">
-              Able to write React applications and keeping things simple without
-              confusing UI libraries. However, I have basic knowledge of
-              material UI and styled components.
-            </p>
-          </div> -->
-          <!-- <div class="col_edu">
-            <div class="circle"></div>
-            <h3 class="title">WORDPRESS</h3>
-            <p class="date">Nov 2020 - Present</p>
-            <p class="text">
-              Able to design wordpress pages using Elementor plugin for
-              organizations, businesses and personnels. I can also design a
-              wordpress woocommerce store
-            </p>
-          </div> -->
         </div>
       </div>
       <!-- Tools -->
@@ -224,23 +205,21 @@
           <h3 class="heading">STACK</h3>
           <div class="col_exp">
             <div class="circle"></div>
-            <h3 class="title">HTML/CSS</h3>
+            <h3 class="title">HTML | CSS | JS</h3>
             <p class="date">2020 - Present</p>
             <p class="text">
-              Able to transform UI designs to html and css codes. I can also
-              rewrite basic/intermediate bootstrap and SAAS pages without using
-              frameworks or libraries.
+              Able to transform UI designs to scalable Html, Css & JS codes. 
+              I can also rewrite sass, bootstrap, and other frameworks web templates.
+
             </p>
           </div>
 
           <div class="col_exp">
             <div class="circle"></div>
-            <h3 class="title">JAVASCRIPT/REACT</h3>
+            <h3 class="title">GIT | REACT | SASS</h3>
             <p class="date">2021 - Present</p>
             <p class="text">
-              Able to write React applications and keeping things simple without
-              confusing UI libraries. However, I have basic knowledge of
-              material UI and styled components.
+              Knowledge of GIT, able to write pages in React and style them with css or Sass. Also skilled with styled components and Material UI.
             </p>
           </div>
           <div class="col_exp">
@@ -248,9 +227,7 @@
             <h3 class="title">WORDPRESS</h3>
             <p class="date">2020 - Present</p>
             <p class="text">
-              Able to design wordpress pages using Elementor plugin for
-              organizations, businesses and personnels. I can also design a
-              wordpress woocommerce store
+              Able to design wordpress pages using Elementor plugin and additional CSS customization. I can also create wooCommerce websites.
             </p>
           </div>
         </div>
@@ -260,14 +237,14 @@
     <div class="works" id="work">
       <h1>My Portfolio</h1>
       <div class="btns" id="myBtns">
-        <button class="btn active" onclick="selectFilter('all')">ALL</button>
+        <button class="btn activ" onclick="selectFilter('all')">ALL</button>
         <button class="btn blue" onclick="selectFilter('templates')">
           TEMPLATES
         </button>
+        <button class="btn blue" onclick="selectFilter('react')">REACT</button>
         <button class="btn blue" onclick="selectFilter('wordpress')">
           WORDPRESS
         </button>
-        <button class="btn blue" onclick="selectFilter('react')">REACT</button>
       </div>
       <!-- gallery -->
       <div class="row">
@@ -275,6 +252,11 @@
         <div class="col templates">
           <div class="content">
             <div class="overlay"></div>
+            <div class="description">
+              <h2>A mini Ecommerce Template</h2>
+            <p>Designed with HTML, CSS Flexbox & JS</p>
+            <p>User can browse through products, check product details and visit cart </p>
+            </div>
             <img src="img/gallery/beestore.jpg" style="width: 100%" />
             <div class="favicons">
               <a href="https://bee-store.000webhostapp.com">
@@ -289,6 +271,14 @@
         <div class="col templates">
           <div class="content">
             <div class="overlay"></div>
+            <div class="description">
+              <h2>An Event Landing page</h2>
+            <p>Designed with HTML, CSS Flexbox & JS</p>
+            <p>✔ Features CSS wavy effect</p>
+            <p>✔ Countdown timer with Javascript</p>
+            </div>
+
+
             <img src="img/gallery/event.png" width="100%" />
             <div class="favicons">
               <a href="https://event-land.000webhostapp.com/">
@@ -300,37 +290,49 @@
             </div>
           </div>
         </div>
-        <div class="col wordpress">
-          <div class="content">
-            <div class="overlay"></div>
-            <img src="img/gallery/onestop.png" width="100%" />
-            <div class="favicons">
-              <a href="http://onestop.rf.gd/">
-                <i class="fa fa-eye" aria-hidden="true"></i
-              ></a>
-              <a href="http://onestop.rf.gd/">
-                <i class="fa fa-link" aria-hidden="true"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="col wordpress">
-          <div class="content">
-            <div class="overlay"></div>
-            <img src="img/gallery/ark.png" width="100%" />
-            <div class="favicons">
-              <a href="http://ademie.epizy.com/">
-                <i class="fa fa-eye" aria-hidden="true"></i
-              ></a>
-              <a href="http://ademie.epizy.com/">
-                <i class="fa fa-link" aria-hidden="true"></i
-              ></a>
-            </div>
-          </div>
-        </div>
         <div class="col react">
           <div class="content">
             <div class="overlay"></div>
+            <div class="description">
+              <h2>A Portfolio Website</h2>
+            <p>Designed with React js & Sass</p>
+              <p>✔ Features Snap Scroll Effect<br>
+              ✔ React UseState and UseEffect</br>
+              ✔ Functional Components in React<br>
+              ✔Features Facebook Messenger Chat API</br>
+              ✔ Form Validation with react-hooks-form & yup</p>
+            </div>
+
+            <img
+              src="img/gallery/vmedia.png"
+              width="100%"
+              style="border: 1px solid blueviolet"
+            />
+            <div class="favicons">
+              <a href="https://vmedia.netlify.app/">
+                <i class="fa fa-eye" aria-hidden="true"></i
+              ></a>
+              <a href="https://vmedia.netlify.app/">
+                <i class="fa fa-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col react">
+          <div class="content">
+            <div class="overlay">
+            </div>
+            <div class="description">
+              <h2>A Hosting Company Website</h2>
+            <p>Designed with React js & Css Flexbox</p>
+            <p>✔ Functional Components in React<br>
+              ✔ Features Facebook Messenger Chat API</br>
+              ✔ Search Functionality fetching JSON data<br>
+              ✔ React-router-hash link smooth scrolling</br>
+              ✔ Form Validation with react-hooks-form & yup</p>
+            </div>
+
             <img src="img/gallery/beehost.jpg" width="100%" />
             <div class="favicons">
               <a href="https://beehost.netlify.app/">
@@ -345,6 +347,16 @@
         <div class="col react">
           <div class="content">
             <div class="overlay"></div>
+            <div class="description">
+              <h2>A React Chat App</h2>
+            <p>Created with React js and Connects Chat API</p>
+            <p>✔ Functional Components in React<br>
+              ✔ Customize Chat Field with React</br>
+              ✔ User can Login, create a new room and add user<br>
+              ✔ User can share text and pictures</br>
+              ✔ For some reason, the API only allows user to create rooms on larger screens</p>
+            </div>
+
             <img
               src="img/gallery/chat.png"
               width="100%"
@@ -360,6 +372,52 @@
             </div>
           </div>
         </div>
+        <div class="col wordpress">
+          <div class="content">
+            <div class="overlay"></div>
+            <div class="description">
+              <h2>A wooCommerce Wordpress site</h2>
+            <p>Created with Wordpress and Elementor</p>
+            <p>✔ User can browse through products<br>
+              ✔ User can add products to cart and checkout</br>
+              ✔ User can add preferred payment method<br>
+              ✔ Features order tracking</br>
+              </p>
+            </div>
+            <img src="img/gallery/onestop.png" width="100%" />
+            <div class="favicons">
+              <a href="http://onestop.rf.gd/">
+                <i class="fa fa-eye" aria-hidden="true"></i
+              ></a>
+              <a href="http://onestop.rf.gd/">
+                <i class="fa fa-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col wordpress">
+          <div class="content">
+            <div class="overlay"></div>
+            <div class="description">
+              <h2>A Finance company website</h2>
+            <p>Created with Wordpress and Elementor Plugin</p>
+            <p>✔ Uses Wordpress Airi theme<br>
+              ✔ Additional Customized Css
+              </p>
+            </div>
+
+            <img src="img/gallery/ark.png" width="100%" />
+            <div class="favicons">
+              <a href="http://ademie.epizy.com/">
+                <i class="fa fa-eye" aria-hidden="true"></i
+              ></a>
+              <a href="http://ademie.epizy.com/">
+                <i class="fa fa-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
       </div>
       <!-- section counter -->
       <div class="section">
@@ -392,14 +450,26 @@
             accept-charset="UTF-8"
             enctype="multipart/form-data"
             method="POST"
-            onsubmit = "return validate();"
+            onsubmit="return validate();"
           >
             <div class="one">
-              <input id="name" name="name" type="text" placeholder="Name" required/>
-              <input id="email" name="email" type="email" placeholder="Email" required/>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Name"
+                required
+              />
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="Email"
+                required
+              />
             </div>
             <div class="two">
-              <input id="subj" type="text" placeholder="Subject" required/>
+              <input id="subj" type="text" placeholder="Subject" required />
             </div>
             <div class="three">
               <textarea
@@ -454,7 +524,7 @@
 
     <!-- scripts -->
     <script src="js/script.js"></script>
-    <script src="js/validate.js"></script>    
+    <script src="js/validate.js"></script>
     <!-- NAVBAR SCRIPT -->
     <script>
       function myFunction() {
