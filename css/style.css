@@ -131,14 +131,12 @@ a {
   align-items: center;
   justify-content: flex-end;
 
-
   /* background: rgba(0, 0, 0, 0.5);
   width: 40vw;
   margin: auto;
   padding-top: 10vh;
   padding-bottom: 10vh;
   margin-top: 10vh; */
-
 }
 .showcontent .hi,
 .showcontent .title {
@@ -183,25 +181,39 @@ a {
 .fab:hover {
   transform: scale(1.1);
 }
-.fa-whatsapp {background: #5fe490;color: black;}
-.fa-whatsapp:hover {background: #5fe490!important;}
-.fa-github {background: #fffefe;color: black;}
-.footer .fa-linkedin{color: white!important;}
-.fa-linkedin {background: rgb(21, 133, 245);color: white;}
-.fa-linkedin:hover {background: rgb(21, 133, 245)!important; color: white!important;}
-.favicons .fab{
+.fa-whatsapp {
+  background: #5fe490;
+  color: black;
+}
+.fa-whatsapp:hover {
+  background: #5fe490 !important;
+}
+.fa-github {
+  background: #fffefe;
+  color: black;
+}
+.footer .fa-linkedin {
+  color: white !important;
+}
+.fa-linkedin {
+  background: rgb(21, 133, 245);
+  color: white;
+}
+.fa-linkedin:hover {
+  background: rgb(21, 133, 245) !important;
+  color: white !important;
+}
+.favicons .fab {
   color: black;
   background: white;
-
 }
 
 .blue {
   background: rgb(97, 56, 184);
 }
-.showcontent .blue{
+.showcontent .blue {
   background: white;
   color: black;
-
 }
 .blue:hover {
   background: rgb(97, 56, 184);
@@ -209,9 +221,8 @@ a {
   transform: scale(1.1);
   box-shadow: 0px 3px 18px 0px rgba(0, 0, 0, 0.6);
 }
-.form .btn.blue:hover{
-    transform: scale(1.001);
-
+.form .btn.blue:hover {
+  transform: scale(1.001);
 }
 /* ABOUT */
 .about {
@@ -332,13 +343,17 @@ a {
   transition: all 0.8s ease-in;
   transform: scale(1.1);
 }
-.col_services p {line-height: 25px;}
+.col_services p {
+  line-height: 25px;
+}
 .col_services .fa,
 .col_services .fab {
   color: rgb(97, 56, 184) !important;
   font-size: 50px;
 }
-.col_services .fa:hover {color: rgb(97, 56, 184) !important;}
+.col_services .fa:hover {
+  color: rgb(97, 56, 184) !important;
+}
 /* RESUME */
 .resume {
   display: flex;
@@ -654,10 +669,9 @@ a {
 
 .favs {
   justify-content: space-evenly;
-  height: 60%;
   margin-left: -50px;
   margin-right: -10px;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 .favs .fa {
@@ -719,4 +733,3 @@ a {
   color: white;
   font-size: 40px;
 }
-

@@ -1,541 +1,536 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- FONT AWSOME -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-   
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- MONTSERRAT -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <title>Personal Portfolio</title>
-  </head>
-  <body>
-    <!-- NAVBAR -->
-    <div class="navbar" id="navbar">
-      <div class="leftside">
-        <div class="logo">
-          <a href="#" style="display: flex; align-items: center">
-            <img src="img/code.svg" style="width: 40px" />
-            &nbsp;PERSONAL
-          </a>
-        </div>
-      </div>
-      <div class="rightside">
-        <div class="links" id="links">
-          <a href="#home"  onclick="myFunction()" class="active">HOME</a>
-          <a href="#about"  onclick="myFunction()" >ABOUT</a>
-          <a href="#services"  onclick="myFunction()">SERVICES</a>
-          <a href="#resume"  onclick="myFunction()">RESUME</a>
-          <a href="#work"  onclick="myFunction()">WORK</a>
-          <a href="#contact"  onclick="myFunction()">CONTACT</a>
-        </div>
-        <a
-          href="javascript:void(0);"
-          style="font-size: 20px"
-          class="icon"
-          onclick="myFunction()"
-          >&#9776;</a
-        >
+  <!-- FONT AWSOME -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- MONTSERRAT -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />
+  <title>Personal Portfolio</title>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <div class="navbar" id="navbar">
+    <div class="leftside">
+      <div class="logo">
+        <a href="#" style="display: flex; align-items: center">
+          <img src="img/code.svg" style="width: 40px" />
+          &nbsp;PERSONAL
+        </a>
       </div>
     </div>
-    <!-- SHOWCASE -->
-    <div class="showcase" id="home">
-      <div class="backvid">
-        <video id="videoBG" poster="poster.JPG" autoplay muted loop>
-          <source src="/img/backvid2.mp4" type="video/mp4" />
-        </video>
+    <div class="rightside">
+      <div class="links" id="links">
+        <a href="#home" onclick="myFunction()" class="active">HOME</a>
+        <a href="#about" onclick="myFunction()">ABOUT</a>
+        <a href="#services" onclick="myFunction()">SERVICES</a>
+        <a href="#resume" onclick="myFunction()">RESUME</a>
+        <a href="#work" onclick="myFunction()">WORK</a>
+        <a href="#contact" onclick="myFunction()">CONTACT</a>
       </div>
-
-      <div class="overlay"></div>
-      <div class="showcontent">
-        <h2 class="hi">Hi I Am</h2>
-        <h1 class="name">ADEMIE</h1>
-        <h2 class="title">A Front-End Developer</h2>
-        <div class="favicons">
-          <a href="https://wa.me/2348102748644">
-            <i class="fab fa-whatsapp"></i>
-          </a>
-
-          <a href="https://github.com/Ademie">
-            <i class="fab fa-github" aria-hidden="true"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/ademie"
-            ><i class="fab fa-linkedin"></i>
-          </a>
-        </div>
-        <a
-          class="btn blue"
-          href="./img/Isijola_Adesanoye.pdf"
-          style="padding: 5px 20px;"
-          download
-          >DOWNLOAD RESUME</a
-        >
-      </div>
+      <a href="javascript:void(0);" style="font-size: 20px" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
-    <!-- ABOUT -->
-    <div class="about" id="about">
-      <div class="img_about">
-        <img src="img/about/pass.jpg" width="100%" />
-      </div>
-      <!-- profile -->
-      <div class="prof_about">
-        <h1>Hello</h1>
-        <p>
-          I am a motivated Front End developer seeking to use proven skills in
-          HTML, CSS, Javascript, Wordpress, Sass and React JS to obtain a responsible and challenging Front End Developer's position, where my education and technical know-how will have valuable application.
-        </p>
-        <br />
-        <ul>
-          <li>
-            <span class="bold">Name</span
-            ><span class="text"
-              >Isijola Adesanoye <span class="brandname">(Ademie)</span>
-            </span>
-          </li>
-          <li>
-            <!-- <span class="bold">Education</span><span class="text">B.Tech </span> -->
-          </li>
-          <li>
-            <span class="bold">Country</span><span class="text">Nigeria</span>
-          </li>
-          <li>
-            <span class="bold">Location</span
-            ><span class="text">Akure, Ondo State</span>
-          </li>
-          <li>
-            <span class="bold">Email</span
-            ><span class="text">adeisijola7@gmail.com</span>
-          </li>
-          <li>
-            <span class="bold">Phone</span
-            ><span class="text">+ (234) 810 274 8644</span>
-          </li>
-          <li>
-            <span class="bold">Internship</span
-            ><span class="text">Available</span>
-          </li>
-          <li>
-            <span class="bold">Freelance</span
-            ><span class="text">Avalaible</span>
-          </li>
-        </ul>
-        <div class="about-btns">
-          <a class="btn blue" href="./img/Isijola_Adesanoye.pdf" download
-            ><i class="fa fa-paperclip" aria-hidden="true"></i> &nbsp;DOWNLOAD
-            RESUME</a
-          >
-          <a class="btn red" href="https://wa.me/2348102748644"
-            ><i class="fa fa-phone" aria-hidden="true"></i> &nbsp;CONTACT ME</a
-          >
-        </div>
-      </div>
+  </div>
+  <!-- SHOWCASE -->
+  <div class="showcase" id="home">
+    <div class="backvid">
+      <video id="videoBG" poster="poster.JPG" autoplay muted loop>
+        <source src="/img/backvid2.mp4" type="video/mp4" />
+      </video>
     </div>
-    <!-- SERVICES -->
-    <div class="services" id="services">
-      <h1>My Services</h1>
-      <div class="row_services">
-        <div class="col_services">
-          <i class="fa fa-bookmark" aria-hidden="true"></i>
-          <h3>TEMPLATES DESIGN</h3>
-          <p>
-            Design of static and dynamic web templates using html, css and
-            javascript.
-          </p>
-        </div>
-        <div class="col_services">
-          <i class="fab fa-wordpress"></i>
-          <h3>WORDPRESS DESIGN</h3>
-          <p>
-            Design of wordpress and wooCommerce websites.
-          </p>
-        </div>
-        <div class="col_services">
-          <i class="fab fa-react"></i>
-          <h3>REACT & SASS</h3>
-          <p>
-            Design React Pages, styling with Sass, fetch JSON Data and communicate with APIs.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!-- RESUME -->
-    <div class="resume" id="resume">
-      <!-- Education -->
-      <div class="vl">
-        <div class="content">
-          <i class="fas fa-crosshairs"></i>
-          <!-- <i class="fa fa-graduation-cap" id="cap"></i> -->
-          <h3 class="heading">OBJECTIVE</h3>
-          <div class="col_edu">
-            <div class="circle"></div>
-            <h3 class="title">CAREER OBJECTIVE</h3>
-            <p class="text">
-              Beginning my journey as a Front End web developer, I intend to
-              emphasize the importance of scalable and well documented code.<br />
-              Additionally, adding values through simple yet creative designs.
-              Furthermore, I look forward to working collaboratively in any
-              organization I find myself, however, I can also run with projects
-              on my own.
-            </p>
-            <img src="/img//gallery/signature.png" class="obj-img" />
-          </div>
-        </div>
-      </div>
-      <!-- Tools -->
-      <div class="vl">
-        <div class="content">
-          <i class="fas fa-laptop-code"></i>
-          <!-- <i class="fa fa-briefcase" id="briefcase"></i> -->
-          <h3 class="heading">STACK</h3>
-          <div class="col_exp">
-            <div class="circle"></div>
-            <h3 class="title">HTML | CSS | JS</h3>
-            <p class="date">2020 - Present</p>
-            <p class="text">
-              Able to transform UI designs to scalable Html, Css & JS codes. 
-              I can also rewrite sass, bootstrap, and other frameworks web templates.
 
-            </p>
-          </div>
-
-          <div class="col_exp">
-            <div class="circle"></div>
-            <h3 class="title">GIT | REACT | SASS</h3>
-            <p class="date">2021 - Present</p>
-            <p class="text">
-              Knowledge of GIT, able to write pages in React and style them with css or Sass. Also skilled with styled components and Material UI.
-            </p>
-          </div>
-          <div class="col_exp">
-            <div class="circle"></div>
-            <h3 class="title">WORDPRESS</h3>
-            <p class="date">2020 - Present</p>
-            <p class="text">
-              Able to design wordpress pages using Elementor plugin and additional CSS customization. I can also create wooCommerce websites.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- WORKS -->
-    <div class="works" id="work">
-      <h1>My Portfolio</h1>
-      <div class="btns" id="myBtns">
-        <button class="btn activ" onclick="selectFilter('all')">ALL</button>
-        <button class="btn blue" onclick="selectFilter('templates')">
-          TEMPLATES
-        </button>
-        <button class="btn blue" onclick="selectFilter('react')">REACT</button>
-        <button class="btn blue" onclick="selectFilter('wordpress')">
-          WORDPRESS
-        </button>
-      </div>
-      <!-- gallery -->
-      <div class="row">
-        <!-- design -->
-        <div class="col templates">
-          <div class="content">
-            <div class="overlay"></div>
-            <div class="description">
-              <h2>A mini Ecommerce Template</h2>
-            <p>Designed with HTML, CSS Flexbox & JS</p>
-            <p>User can browse through products, check product details and visit cart </p>
-            </div>
-            <img src="img/gallery/beestore.jpg" style="width: 100%" />
-            <div class="favicons">
-              <a href="https://bee-store.000webhostapp.com">
-                <i class="fa fa-eye" aria-hidden="true"></i
-              ></a>
-              <a href="https://bee-store.000webhostapp.com">
-                <i class="fa fa-link" aria-hidden="true"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="col templates">
-          <div class="content">
-            <div class="overlay"></div>
-            <div class="description">
-              <h2>An Event Landing page</h2>
-            <p>Designed with HTML, CSS Flexbox & JS</p>
-            <p>✔ Features CSS wavy effect</p>
-            <p>✔ Countdown timer with Javascript</p>
-            </div>
-
-
-            <img src="img/gallery/event.png" width="100%" />
-            <div class="favicons">
-              <a href="https://event-land.000webhostapp.com/">
-                <i class="fa fa-eye" aria-hidden="true"></i
-              ></a>
-              <a href="https://event-land.000webhostapp.com/">
-                <i class="fa fa-link" aria-hidden="true"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="col react">
-          <div class="content">
-            <div class="overlay"></div>
-            <div class="description">
-              <h2>A Portfolio Website</h2>
-            <p>Designed with React js & Sass</p>
-              <p>✔ Features Snap Scroll Effect<br>
-              ✔ React UseState and UseEffect</br>
-              ✔ Functional Components in React<br>
-              ✔Features Facebook Messenger Chat API</br>
-              ✔ Form Validation with react-hooks-form & yup</p>
-            </div>
-
-            <img
-              src="img/gallery/vmedia.png"
-              width="100%"
-              style="border: 1px solid blueviolet"
-            />
-            <div class="favicons">
-              <a href="https://vmedia.netlify.app/">
-                <i class="fa fa-eye" aria-hidden="true"></i
-              ></a>
-              <a href="https://vmedia.netlify.app/">
-                <i class="fa fa-link" aria-hidden="true"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col react">
-          <div class="content">
-            <div class="overlay">
-            </div>
-            <div class="description">
-              <h2>A Hosting Company Website</h2>
-            <p>Designed with React js & Css Flexbox</p>
-            <p>✔ Functional Components in React<br>
-              ✔ Features Facebook Messenger Chat API</br>
-              ✔ Search Functionality fetching JSON data<br>
-              ✔ React-router-hash link smooth scrolling</br>
-              ✔ Form Validation with react-hooks-form & yup</p>
-            </div>
-
-            <img src="img/gallery/beehost.jpg" width="100%" />
-            <div class="favicons">
-              <a href="https://beehost.netlify.app/">
-                <i class="fa fa-eye" aria-hidden="true"></i
-              ></a>
-              <a href="https://beehost.netlify.app/">
-                <i class="fa fa-link" aria-hidden="true"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="col react">
-          <div class="content">
-            <div class="overlay"></div>
-            <div class="description">
-              <h2>A React Chat App</h2>
-            <p>Created with React js and Connects Chat API</p>
-            <p>✔ Functional Components in React<br>
-              ✔ Customize Chat Field with React</br>
-              ✔ User can Login, create a new room and add user<br>
-              ✔ User can share text and pictures</br>
-              ✔ For some reason, the API only allows user to create rooms on larger screens</p>
-            </div>
-
-            <img
-              src="img/gallery/chat.png"
-              width="100%"
-              style="border: 1px solid pink"
-            />
-            <div class="favicons">
-              <a href="https://ademieschat.netlify.app/">
-                <i class="fa fa-eye" aria-hidden="true"></i
-              ></a>
-              <a href="https://ademieschat.netlify.app/">
-                <i class="fa fa-link" aria-hidden="true"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="col wordpress">
-          <div class="content">
-            <div class="overlay"></div>
-            <div class="description">
-              <h2>A wooCommerce Wordpress site</h2>
-            <p>Created with Wordpress and Elementor</p>
-            <p>✔ User can browse through products<br>
-              ✔ User can add products to cart and checkout</br>
-              ✔ User can add preferred payment method<br>
-              ✔ Features order tracking</br>
-              </p>
-            </div>
-            <img src="img/gallery/onestop.png" width="100%" />
-            <div class="favicons">
-              <a href="http://onestop.rf.gd/">
-                <i class="fa fa-eye" aria-hidden="true"></i
-              ></a>
-              <a href="http://onestop.rf.gd/">
-                <i class="fa fa-link" aria-hidden="true"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="col wordpress">
-          <div class="content">
-            <div class="overlay"></div>
-            <div class="description">
-              <h2>A Finance company website</h2>
-            <p>Created with Wordpress and Elementor Plugin</p>
-            <p>✔ Uses Wordpress Airi theme<br>
-              ✔ Additional Customized Css
-              </p>
-            </div>
-
-            <img src="img/gallery/ark.png" width="100%" />
-            <div class="favicons">
-              <a href="http://ademie.epizy.com/">
-                <i class="fa fa-eye" aria-hidden="true"></i
-              ></a>
-              <a href="http://ademie.epizy.com/">
-                <i class="fa fa-link" aria-hidden="true"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <!-- section counter -->
-      <div class="section">
-        <div class="overlay"></div>
-        <div class="column">
-          <i class="fas fa-user-circle"></i>
-          <p>SELF PACED</p>
-        </div>
-        <div class="column">
-          <i class="fas fa-user-friends"></i>
-          <p>TEAM WORK</p>
-        </div>
-        <div class="column">
-          <i class="fas fa-user-clock"></i>
-          <p>ON SCHEDULE</p>
-        </div>
-        <div class="column">
-          <i class="fab fa-superpowers"></i>
-          <p>PRODUCTIVE</p>
-        </div>
-      </div>
-    </div>
-    <!-- CONTACT -->
-    <div class="contact" id="contact">
-      <div class="row_contact">
-        <div class="form">
-          <h3 class="head">CONTACT FORM</h3>
-          <form
-            action="https://formkeep.com/f/318366aecb78"
-            accept-charset="UTF-8"
-            enctype="multipart/form-data"
-            method="POST"
-            onsubmit="return validate();"
-          >
-            <div class="one">
-              <input
-                id="name"
-                name="name"
-                type="text"
-                placeholder="Name"
-                required
-              />
-              <input
-                id="email"
-                name="email"
-                type="email"
-                placeholder="Email"
-                required
-              />
-            </div>
-            <div class="two">
-              <input id="subj" type="text" placeholder="Subject" required />
-            </div>
-            <div class="three">
-              <textarea
-                id="subject"
-                name="subject"
-                placeholder="Your Message"
-                required
-              ></textarea>
-            </div>
-            <button type="submit" class="btn blue">SEND MESSAGE</button>
-          </form>
-        </div>
-
-        <div class="address">
-          <h3 class="head">CONTACT ADDRESS</h3>
-          <div class="container favs">
-            <i class="fa fa-location-arrow" aria-hidden="true"></i>
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-            <i class="fa fa-phone" aria-hidden="true"></i>
-          </div>
-          <div class="container contact">
-            <p>Akure, Nigeria</p>
-            <div class="email">
-              <p>ademiedave@gmail.com</p>
-              <p>adeisijola7@gmail.com</p>
-            </div>
-            <p>+ (234) 810 274 8644</p>
-            <p>+ (234) 810 274 8644</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- FOOTER -->
-    <div class="footer">
-      <div class="social">
-        <a href="https://wa.me/2348102748644">
+    <div class="overlay"></div>
+    <div class="showcontent">
+      <h2 class="hi">Hi I Am</h2>
+      <h1 class="name">ADEMIE</h1>
+      <h2 class="title">A Software Developer</h2>
+      <div class="favicons">
+        <a href="https://wa.me/14642316145">
           <i class="fab fa-whatsapp"></i>
         </a>
 
         <a href="https://github.com/Ademie">
           <i class="fab fa-github" aria-hidden="true"></i>
         </a>
-        <a href="https://www.linkedin.com/in/ademie"
-          ><i class="fab fa-linkedin"></i>
+        <a href="https://www.linkedin.com/in/ademie"><i class="fab fa-linkedin"></i>
         </a>
       </div>
-      <p>Ademie</p>
-      <!-- <div class="top">
+      <a class="btn blue" href="./img/Adenew1.pdf" style="padding: 5px 20px;" download>DOWNLOAD RESUME</a>
+    </div>
+  </div>
+  <!-- ABOUT -->
+  <div class="about" id="about">
+    <div class="img_about">
+      <img src="img/about/pass.jpg" />
+    </div>
+    <!-- profile -->
+    <div class="prof_about">
+      <h1>Hello</h1>
+      <p>
+        I am a dedicated software developer with extensive experience in both web and mobile development. My skill set
+        includes HTML, CSS, JavaScript, WordPress, Sass, Chakra UI, and React.js, as well as expertise in mobile app
+        development with React.js, Flutter and Firebase. I have successfully led the development and enhancement of
+        innovative web and mobile applications.
+      </p>
+      <br />
+      <ul>
+        <li>
+          <span class="bold">Name</span><span class="text">Isijola Adesanoye <span class="brandname">(Ademie)</span>
+          </span>
+        </li>
+        <li>
+          <!-- <span class="bold">Education</span><span class="text">B.Tech </span> -->
+        </li>
+        <li>
+          <span class="bold">Country</span><span class="text">Nigeria</span>
+        </li>
+        <li>
+          <span class="bold">Location</span><span class="text">Lekki, Lagos</span>
+        </li>
+        <li>
+          <span class="bold">Email</span><span class="text">adeisijola7@gmail.com</span>
+        </li>
+        <li>
+          <span class="bold">Phone</span><span class="text">+ (234) 810 274 8644</span>
+        </li>
+        <li>
+          <span class="bold">Internship</span><span class="text">Available</span>
+        </li>
+        <li>
+          <span class="bold">Freelance</span><span class="text">Avalaible</span>
+        </li>
+      </ul>
+      <div class="about-btns">
+        <a class="btn blue" href="./img/Adenew1.pdf" download><i class="fa fa-paperclip" aria-hidden="true"></i>
+          &nbsp;DOWNLOAD
+          RESUME</a>
+        <a class="btn red" href="https://wa.me/14642316145"><i class="fa fa-phone" aria-hidden="true"></i> &nbsp;CONTACT
+          ME</a>
+      </div>
+    </div>
+  </div>
+  <!-- SERVICES -->
+  <div class="services" id="services">
+    <h1>My Services</h1>
+    <div class="row_services">
+      <div class="col_services">
+        <i class="fa fa-mobile" aria-hidden="true"></i>
+        <h3>APP DEVELOPMENT</h3>
+        <p>
+          Development of cross platform mobile apps for Android and iOS.
+        </p>
+      </div>
+      <div class="col_services">
+        <i class="fab fa-wordpress"></i>
+        <h3>WORDPRESS DESIGN</h3>
+        <p>
+          Design of wordpress and wooCommerce websites.
+        </p>
+      </div>
+      <div class="col_services">
+        <i class="fab fa-react"></i>
+        <h3>REACT & NODE.js</h3>
+        <p>
+          Develop Full Stack Website with Javascript technologies.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- RESUME -->
+  <div class="resume" id="resume">
+    <!-- Education -->
+    <div class="vl">
+      <div class="content">
+        <i class="fas fa-crosshairs"></i>
+        <!-- <i class="fa fa-graduation-cap" id="cap"></i> -->
+        <h3 class="heading">OBJECTIVE</h3>
+        <div class="col_edu">
+          <div class="circle"></div>
+          <h3 class="title">BUSINESS OBJECTIVE</h3>
+          <p class="text">   
+            "To leverage my experience in software and mobile app development
+            to create innovative, user-focused solutions that drive business growth. 
+            My objective is to deliver high-quality, scalable applications that<br />
+            enhance user engagement, optimize performance, and contribute to the overall success of the organization."
+          </p>
+          <img src="/img//gallery/signature.png" class="obj-img" />
+        </div>
+      </div>
+    </div>
+    <!-- Tools -->
+    <div class="vl">
+      <div class="content">
+        <i class="fas fa-laptop-code"></i>
+        <!-- <i class="fa fa-briefcase" id="briefcase"></i> -->
+        <h3 class="heading">STACK</h3>
+        <div class="col_exp">
+          <div class="circle"></div>
+          <h3 class="title">FLUTTER | REACT NATIVE | FIREBASE</h3>
+          <p class="date">2022 - Present</p>
+          <p class="text">
+            Experienced in creating full stack cross-platform mobile applications for Android & iOS 
+            Fully optimized to serve client's business goals.
+          </p>
+        </div>
+        <div class="col_exp">
+          <div class="circle"></div>
+          <h3 class="title">HTML | CSS | JS</h3>
+          <p class="date">2020 - Present</p>
+          <p class="text">
+            Able to transform UI designs to scalable Html, Css & JS codes.
+            Create full stack websites and web applications customized to client's satisfaction.
+          </p>
+        </div>
+
+        <div class="col_exp">
+          <div class="circle"></div>
+          <h3 class="title">GIT | REACT | SASS</h3>
+          <p class="date">2021 - Present</p>
+          <p class="text">
+            Knowledge of GIT, able to write pages in React and style them with css or Sass. Also skilled with styled
+            components and Material UI.
+          </p>
+        </div>
+        <div class="col_exp">
+          <div class="circle"></div>
+          <h3 class="title">WORDPRESS</h3>
+          <p class="date">2020 - Present</p>
+          <p class="text">
+            Able to design wordpress pages using Elementor plugin and additional CSS customization. I can also create
+            wooCommerce websites.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- WORKS -->
+  <div class="works" id="work">
+    <h1>My Portfolio</h1>
+    <div class="btns" id="myBtns">
+      <button class="btn activ" onclick="selectFilter('all')">ALL</button>
+      <button class="btn blue" onclick="selectFilter('mobile')">
+        MOBILE APP
+      </button>
+      <button class="btn blue" onclick="selectFilter('website')">WEBSITES</button>
+      <button class="btn blue" onclick="selectFilter('wordpress')">
+        WORDPRESS
+      </button>
+    </div>
+    <!-- gallery -->
+    <div class="row">
+      <!-- design -->
+      <div class="col website">
+        <div class="content">
+          <div class="overlay"></div>
+          <div class="description">
+            <h2>An Ecommerce Landing Page</h2>
+            <p>Designed with HTML, CSS Flexbox & JS</p>
+            <p>User can browse through products, check product details and visit cart </p>
+          </div>
+          <img src="img/gallery/beestore.jpg" style="width: 100%" />
+          <div class="favicons">
+            <a href="https://bee-store.netlify.app/">
+              <i class="fa fa-eye" aria-hidden="true"></i></a>
+            <a href="https://bee-store.netlify.app/">
+              <i class="fa fa-link" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+       <!-- DIDI-->
+       <div class="col mobile">
+        <div class="content">
+          <div class="overlay"></div>
+          <div class="description">
+            <h2>Taxi Booking mobile App</h2>
+            <p>DIDI</p>
+            <p>✔ Get Instant ride in Egypt</p>
+          </div>
+
+
+          <img src="img/gallery/didi.png" width="100%" height="230px" />
+          <div class="favicons">
+            <a href="https://apps.apple.com/us/app/didi-rider-affordable-rides/id1362398401">
+              <i class="fa fa-eye" aria-hidden="true"></i></a>
+            <a href="https://apps.apple.com/us/app/didi-rider-affordable-rides/id1362398401">
+              <i class="fa fa-link" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- Sycamore -->
+      <div class="col mobile">
+        <div class="content">
+          <div class="overlay"></div>
+          <div class="description">
+            <h2>A Fintech mobile App</h2>
+            <p>Sycamore/p>
+            <p>✔ Get Loan. Invest. Lend Friends</p>
+          </div>
+
+
+          <img src="img/gallery/sycam.png" width="100%" height="230px" />
+          <div class="favicons">
+            <a href="https://apps.apple.com/ng/app/sycamore-lend-and-borrow/id1592757960">
+              <i class="fa fa-eye" aria-hidden="true"></i></a>
+            <a href="https://apps.apple.com/ng/app/sycamore-lend-and-borrow/id1592757960">
+              <i class="fa fa-link" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- Chrono -->
+      <div class="col mobile">
+        <div class="content">
+          <div class="overlay"></div>
+          <div class="description">
+            <h2>A Massage Booking mobile App</h2>
+            <p>Chronogram</p>
+            <p>✔ in progress</p>
+          </div>
+
+
+          <img src="img/gallery/2.png" width="100%" height="230px" />
+          <div class="favicons">
+            <a href="#">
+              <i class="fa fa-eye" aria-hidden="true"></i></a>
+            <a href="#">
+              <i class="fa fa-link" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col website">
+        <div class="content">
+          <div class="overlay"></div>
+          <div class="description">
+            <h2>A Portfolio Website</h2>
+            <p>Designed with React js & Sass</p>
+            <p>✔ Features Snap Scroll Effect<br>
+              ✔ React UseState and UseEffect</br>
+              ✔ Functional Components in React<br>
+              ✔Features Facebook Messenger Chat API</br>
+              ✔ Form Validation with react-hooks-form & yup</p>
+          </div>
+
+          <img src="img/gallery/vmedia.png" width="100%" style="border: 1px solid blueviolet" />
+          <div class="favicons">
+            <a href="https://vmedia.netlify.app/">
+              <i class="fa fa-eye" aria-hidden="true"></i></a>
+            <a href="https://vmedia.netlify.app/">
+              <i class="fa fa-link" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col website">
+        <div class="content">
+          <div class="overlay">
+          </div>
+          <div class="description">
+            <h2>A Hosting Company Website</h2>
+            <p>Designed with React js & Css Flexbox</p>
+            <p>✔ Functional Components in React<br>
+              ✔ Features Facebook Messenger Chat API</br>
+              ✔ Search Functionality fetching JSON data<br>
+              ✔ React-router-hash link smooth scrolling</br>
+              ✔ Form Validation with react-hooks-form & yup</p>
+          </div>
+
+          <img src="img/gallery/beehost.jpg" width="100%" />
+          <div class="favicons">
+            <a href="https://beehost.netlify.app/">
+              <i class="fa fa-eye" aria-hidden="true"></i></a>
+            <a href="https://beehost.netlify.app/">
+              <i class="fa fa-link" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col website">
+        <div class="content">
+          <div class="overlay"></div>
+          <div class="description">
+            <h2>Green energy distro</h2>
+            <p>Ostrom - A green energy distro in germany</p>
+            
+          </div>
+
+          <img src="img/gallery/ostrom.png" width="100%" height="230px" style="border: 1px solid teal" />
+          <div class="favicons">
+            <a href="https://www.ostrom.de/">
+              <i class="fa fa-eye" aria-hidden="true"></i></a>
+            <a href="https://www.ostrom.de/">
+              <i class="fa fa-link" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="col website">
+        <div class="content">
+          <div class="overlay"></div>
+          <div class="description">
+            <h2>A React Chat App</h2>
+            <p>Created with React js and Connects Chat API</p>
+            <p>✔ Functional Components in React<br>
+              ✔ Customize Chat Field with React</br>
+              ✔ User can Login, create a new room and add user<br>
+              ✔ User can share text and pictures</br>
+              ✔ For some reason, the API only allows user to create rooms on larger screens</p>
+          </div>
+
+          <img src="img/gallery/chat.png" width="100%" style="border: 1px solid pink" />
+          <div class="favicons">
+            <a href="https://ademieschat.netlify.app/">
+              <i class="fa fa-eye" aria-hidden="true"></i></a>
+            <a href="https://ademieschat.netlify.app/">
+              <i class="fa fa-link" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div> -->
+      <div class="col wordpress">
+        <div class="content">
+          <div class="overlay"></div>
+          <div class="description">
+            <h2>A Salon website</h2>
+            <p>HOUSE OF COLORS</p>
+           
+            </p>
+          </div>
+          <img src="img/gallery/house.png" width="100%" height="230px"/>
+          <div class="favicons">
+            <a href="https://www.howsofcolor.com/">
+              <i class="fa fa-eye" aria-hidden="true"></i></a>
+            <a href="https://www.howsofcolor.com/">
+              <i class="fa fa-link" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col wordpress">
+        <div class="content">
+          <div class="overlay"></div>
+          <div class="description">
+            <h2>Beebusy Inc.</h2>
+            <p>HIV/STI Education website</p>
+            <p>✔ Uses Wordpress Airi theme<br>
+              ✔ Additional Customized Css
+            </p>
+          </div>
+
+          <img src="img/gallery/beebusy.png" width="100%" height="230px" />
+          <div class="favicons">
+            <a href="https://beebusy.org/">
+              <i class="fa fa-eye" aria-hidden="true"></i></a>
+            <a href="https://beebusy.org/">
+              <i class="fa fa-link" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- section counter -->
+    <div class="section">
+      <div class="overlay"></div>
+      <div class="column">
+        <i class="fas fa-user-circle"></i>
+        <p>SELF PACED</p>
+      </div>
+      <div class="column">
+        <i class="fas fa-user-friends"></i>
+        <p>TEAM WORK</p>
+      </div>
+      <div class="column">
+        <i class="fas fa-user-clock"></i>
+        <p>ON SCHEDULE</p>
+      </div>
+      <div class="column">
+        <i class="fab fa-superpowers"></i>
+        <p>PRODUCTIVE</p>
+      </div>
+    </div>
+  </div>
+  <!-- CONTACT -->
+  <div class="contact" id="contact">
+    <div class="row_contact">
+      <div class="form">
+        <h3 class="head">CONTACT FORM</h3>
+        <form action="https://formkeep.com/f/318366aecb78" accept-charset="UTF-8" enctype="multipart/form-data"
+          method="POST" onsubmit="return validate();">
+          <div class="one">
+            <input id="name" name="name" type="text" placeholder="Name" required />
+            <input id="email" name="email" type="email" placeholder="Email" required />
+          </div>
+          <div class="two">
+            <input id="subj" type="text" placeholder="Subject" required />
+          </div>
+          <div class="three">
+            <textarea id="subject" name="subject" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn blue">SEND MESSAGE</button>
+        </form>
+      </div>
+
+      <div class="address">
+        <h3 class="head">CONTACT ADDRESS</h3>
+        <div class="container favs">
+          <i class="fa fa-location-arrow" aria-hidden="true"></i>
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <i class="fa fa-phone" aria-hidden="true"></i>
+        </div>
+        <div class="container contact">
+          <p>Lagos, Nigeria</p>
+          <div class="email">
+            <p>ademiedave@gmail.com</p>
+            <p>adeisijola7@gmail.com</p>
+          </div>
+          <p>+1 (464) 231-6145</p>
+          <p>+ (234) 810 274 8644</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="social">
+      <a href="https://wa.me/14642316145">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+
+      <a href="https://github.com/Ademie">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/ademie"><i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+    <p>Ademie</p>
+    <!-- <div class="top">
         <a href="#home">&#8593;</a>
       </div> -->
-    </div>
+  </div>
 
-    <!-- scripts -->
-    <script src="js/script.js"></script>
-    <script src="js/validate.js"></script>
-    <!-- NAVBAR SCRIPT -->
-    <script>
-      function myFunction() {
-        var x = document.getElementById("links");
-        if (x.className === "links") {
-          x.className += " responsive";
-        } else {
-          x.className = "links";
-        }
+  <!-- scripts -->
+  <script src="js/script.js"></script>
+  <script src="js/validate.js"></script>
+  <!-- NAVBAR SCRIPT -->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("links");
+      if (x.className === "links") {
+        x.className += " responsive";
+      } else {
+        x.className = "links";
       }
-    </script>
-  </body>
+    }
+  </script>
+</body>
+
 </html>
